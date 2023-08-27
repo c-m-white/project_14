@@ -2,7 +2,7 @@
 @import'page';
 
 a.highlight:hover {
-  color#ff0000;
+  color:#ff0000;
   font-size:22px;
 }
   header{
@@ -14,7 +14,7 @@ a.highlight:hover {
   @keyframes example{
     0%  {background-color:$bgcolor1;}
     25% {background-color:$bgcolor2;}
-    50% {background-color:$bcolor1;}
+    50% {background-color:$bgcolor1;}
     75% {background-color:$bgcolor2;}
     100% {background-color:$bgcolor1;}
   }
@@ -45,10 +45,9 @@ a.highlight:hover {
     text-align: center;
     text-decoration: none;
     outline: none;
-    background-color: #4477CE;
+    background-color:$bgframe;
     border: none;
     border-radius: 15px;
-  
   }
 
   .buttons:hover {background-color: #8CABFF}
@@ -117,4 +116,10 @@ a.highlight:hover {
         border-style:groove;
         margin:20PX;
         Padding:20px;
+      }
+
+    
+          
+      .change {
+        background-color:$bgpage;
       }

@@ -7,6 +7,23 @@
   text-align: left;
 }
 
+main {
+  border-style: groove;
+  margin: 20PX;
+  Padding: 20px;
+}
+
+.pinkback {
+  background: url(https://source.unsplash.com/qjCHPZbeXCQ);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+}
+
 header {
   text-align: center;
   background-color: #C5DFF8;
@@ -118,7 +135,7 @@ section {
 
 footer {
   text-align: center;
-  background-color: #c5dff8;
+  background-color: #C5DFF8;
   color: black;
   animation-name: example;
   animation-duration: 5s;
@@ -135,4 +152,8 @@ main {
   border-style: groove;
   margin: 20PX;
   Padding: 20px;
+}
+
+.change {
+  background-color: #FFC7EA;
 }/*# sourceMappingURL=style.css.map */
