@@ -1,0 +1,138 @@
+.blueback {
+  background: url(https://source.unsplash.com/ypGtUxrwmNI);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blueviolet;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+
+header {
+  text-align: center;
+  background-color: #C5DFF8;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  0% {
+    background-color: #C5DFF8;
+  }
+  25% {
+    background-color: #ADBFE0;
+  }
+  50% {
+    background-color: #C5DFF8;
+  }
+  75% {
+    background-color: #ADBFE0;
+  }
+  100% {
+    background-color: #C5DFF8;
+  }
+}
+.floral_image > img {
+  width: 80px;
+  text-align: center;
+  border: double;
+  padding: 10px;
+  background-color: #4477CE;
+}
+
+.selfie > img {
+  border: double;
+  padding: 10px;
+  background-color: #4477CE;
+}
+
+.name {
+  font-family: cursive;
+  font-size: 30px;
+  color: darkblue;
+}
+
+.buttons {
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #4477CE;
+  border: none;
+  border-radius: 15px;
+}
+
+.buttons:hover {
+  background-color: #8CABFF;
+}
+
+.buttons:active {
+  background-color: #8CABFF;
+  transform: translateY(4px);
+}
+
+h2 {
+  /* font-family:'Times New Roman', Times, serif */
+  text-align: left;
+  color: purple;
+  font-family: cursive;
+}
+
+section {
+  text-indent: 2%;
+  color: black;
+  text-align: left;
+}
+
+.gridbox {
+  text-align: center;
+  float: left;
+  margin: auto;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.grid-item {
+  color: black;
+  font-family: cursive;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  margin: 50px;
+  width: 300px;
+  padding: 25px;
+  border: double;
+  background-color: #4477CE;
+}
+
+footer {
+  text-align: center;
+  background-color: #c5dff8;
+  color: black;
+  animation-name: example;
+  animation-duration: 5s;
+  padding: 40px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+main {
+  border-style: groove;
+  margin: 20PX;
+  Padding: 20px;
+}/*# sourceMappingURL=style.css.map */
