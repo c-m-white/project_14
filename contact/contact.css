@@ -1,0 +1,157 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    text-align: center;
+    background-color: #C5DFF8;
+    animation-name: example;
+    animation-duration: 5s;
+  }
+  .name {
+    font-family: cursive;
+    font-size: 30px;
+    color: darkblue;
+  }
+
+  @keyframes example {
+    0% {
+      background-color: #C5DFF8;
+    }
+    25% {
+      background-color: #ADBFE0;
+    }
+    50% {
+      background-color: #C5DFF8;
+    }
+    75% {
+      background-color: #ADBFE0;
+    }
+    100% {
+      background-color: #C5DFF8;
+    }
+  }
+
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .blueback{
+    background:url(https://source.unsplash.com/ypGtUxrwmNI);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:blueviolet;
+    font-family:'Times New Roman', Times, serif;
+    text-align:left;
+  }
+  
+  #form-submitted-msg {
+    margin-bottom: 3rem;
+    border-radius: 3px;
+    background-color: rgb(67, 161, 67);
+    padding: 0.5rem;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    display: none;
+  }
+  
+  #exampleForm {
+    width: 40%;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group:not(.radio):not(.checkbox) {
+    gap: 0.25rem;
+    flex-direction: column;
+  }
+  
+  .input-group:not(.radio):not(.checkbox) input {
+    width: 100%;
+    border-radius: 0.375rem !important;
+  }
+  
+  .input-group.checkbox {
+    gap: 1rem;
+  }
+  
+  .input-group.radio {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .input-group.select select {
+    width: 100%;
+  }
+  
+  legend {
+    font-size: 1rem;
+    width: max-content;
+  }
+  
+  .buttons {
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #4477CE;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .buttons:hover {
+    background-color: #8CABFF;
+  }
+  
+  .buttons:active {
+    background-color: #8CABFF;
+    transform: translateY(4px);
+  }
+   .form-btns {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+  
+  .form-btns > .button {
+    padding: 0.3rem 1.5rem;
+  }
+  
+  .form-btns > .submit {
+    padding-inline: 3rem;
+  }
+  
+  .error-msg {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #C5DFF8;
+    color: black;
+    animation-name: example;
+    animation-duration: 5s;
+    padding: 40px;
+  }
+
+  main {
+    border-style: groove;
+    margin: 20PX;
+    Padding: 20px;
+  }
